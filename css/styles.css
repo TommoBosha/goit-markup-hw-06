@@ -904,10 +904,6 @@ p {
 }
 
 .form-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 14px;
@@ -915,7 +911,7 @@ p {
   letter-spacing: 0.03em;
 }
 .checkbox-box {
-  display: flex;
+  display: inline-flex;
   width: 16px;
   height: 15px;
   margin-right: 7px;
@@ -930,6 +926,7 @@ p {
 .modal-button-submit {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 .input-box {
   appearance: none;
